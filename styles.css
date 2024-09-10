@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#cover img {
+    width: 100%;
+    height: auto;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Sections */
+#volunteer-section,
+#donation-section,
+#event-section {
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#volunteer-section h2,
+#donation-section h2,
+#event-section h2 {
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+form label, form input {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #f4f4f4;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+

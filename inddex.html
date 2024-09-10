@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Outreach</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Ubuntu Community Outreach</h1>
+        <p>Empowering community through compassion and action.</p>
+    </header>
+
+    <!-- Cover Image -->
+    <section id="cover">
+        <img src="images/cover.jpg" alt="Community Outreach">
+    </section>
+
+    <!-- Key Features Section -->
+    <section id="features">
+        <h2>Key Features</h2>
+
+        <!-- Volunteer Feature -->
+        <div class="feature">
+            <img src="images/volunteer.jpg" alt="Volunteer">
+            <h3>Volunteer Sign-Up</h3>
+            <p>Manage and sign up volunteers effortlessly for various community events.</p>
+            <a href="#volunteer-section" class="button">Learn More</a>
+        </div>
+
+        <!-- Donation Feature -->
+        <div class="feature">
+            <img src="images/donation.jpg" alt="Donation">
+            <h3>Donation Management</h3>
+            <p>Track and manage donations to support your community outreach efforts.</p>
+            <a href="#donation-section" class="button">Donate Now</a>
+        </div>
+
+        <!-- Event Feature -->
+        <div class="feature">
+            <img src="images/event.jpg" alt="Event Management">
+            <h3>Event Management</h3>
+            <p>Organize community events with an integrated calendar and volunteer registration.</p>
+            <a href="#event-section" class="button">Explore Events</a>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer-section">
+        <h2>Volunteer Opportunities</h2>
+        <p>Join our community and help make a difference! Sign up below:</p>
+        <form action="/volunteer-signup" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donation-section">
+        <h2>Make a Donation</h2>
+        <p>Your support helps us create meaningful change in the community.</p>
+        <form action="/process-donation" method="POST">
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            <button type="submit">Donate Now</button>
+        </form>
+    </section>
+
+    <!-- Event Section -->
+    <section id="event-section">
+        <h2>Upcoming Events</h2>
+        <p>Check out our upcoming events and sign up to participate:</p>
+        <ul>
+            <li>Community Clean-up - Sept 30</li>
+            <li>Food Drive - Oct 15</li>
+        </ul>
+    </section>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
+
