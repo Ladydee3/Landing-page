@@ -1,4 +1,4 @@
-/* General Styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,108 +8,140 @@ body {
 
 header {
     background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    color: #fff;
+    padding: 10px 0;
 }
 
-#cover img {
-    width: 100%;
-    height: auto;
-}
-
-#features {
+nav ul {
+    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a.btn {
+    background-color: #ff8800;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.intro-content {
+    text-align: center;
+    padding: 60px 20px;
     background-color: #fff;
 }
 
-.feature {
+.cover-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.intro-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.intro-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.intro-content a.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+#features {
+    padding: 40px 20px;
+    background-color: #fff;
     text-align: center;
-    width: 30%;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 30px;
 }
 
 .feature img {
     width: 100%;
+    max-width: 300px;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .feature h3 {
-    font-size: 24px;
-    margin-top: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .feature p {
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 1rem;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
     text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
 }
 
-.button:hover {
-    background-color: #45a049;
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-/* Sections */
-#volunteer-section,
-#donation-section,
-#event-section {
-    padding: 50px;
-    background-color: #fff;
-    margin-top: 20px;
+#about p {
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
-#volunteer-section h2,
-#donation-section h2,
-#event-section h2 {
-    font-size: 28px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: 0 auto;
-}
-
-form label, form input {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
-form button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #45a049;
-}
-
-ul {
+#about ul {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
-    background-color: #f4f4f4;
-    margin: 10px 0;
-    padding: 10px;
-    font-size: 18px;
+#about ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#about ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Video Section */
+#video {
+    padding: 40px 20px;
     text-align: center;
+}
+
+#video h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#video video {
+    max-width: 100%;
+    height: auto;
 }
 
