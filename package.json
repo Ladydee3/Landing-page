@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Build your portfolio project (Week 3): Project Landing Page",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Ladydee3/Landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ladydee3/Landing-page/issues"
+  },
+  "homepage": "https://github.com/Ladydee3/Landing-page#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
