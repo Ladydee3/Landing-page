@@ -3,73 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubuntu Community Outreach</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Empowering Community Through Action</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        section#hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        section#hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        section#hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        section#hero .cta-button {
+            background-color: #ff9800;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        section#hero .cta-button:hover {
+            background-color: #e68a00;
+        }
+
+        section#about,
+        section#services,
+        section#contact {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section#about h2,
+        section#services h2,
+        section#contact h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        section#about p,
+        section#services p,
+        section#contact p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        section#services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section#services ul li {
+            font-size: 20px;
+            margin: 10px 0;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-    <!-- Navigation Bar -->
+    <!-- Header Section -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#intro">Home</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="your-deployed-app-url" class="btn">Launch App</a></li>
-            </ul>
-        </nav>
+        <h1>Ubuntu Community Outreach</h1>
     </header>
 
-    <!-- Intro Section -->
-    <section id="intro">
-        <div class="intro-content">
-            <img src="images/cover-image-ubuntu-outreach.jpg" alt="Cover Image" class="cover-image">
-            <h1>Ubuntu Community Outreach</h1>
-            <p>Empowering communities through compassion and action.</p>
-            <a href="your-deployed-app-url" class="btn">Explore the Project</a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div>
+            <h1>Empowering Community Through Action</h1>
+            <p>Join us to make a difference in our community by supporting local initiatives.</p>
+            <a href="#about" class="cta-button">Learn More</a>
         </div>
     </section>
 
-    <!-- Feature Section -->
-    <section id="features">
-        <h2>Key Features</h2>
-        <div class="feature">
-            <img src="image.png" alt="Feature 1">
-            <h3>Donation Integration</h3>
-            <p>Streamlined donation processing through integrated Stripe API to support community causes.</p>
-        </div>
-        <div class="feature">
-            <img src="feature2.jpg" alt="Feature 2">
-            <h3>Volunteer Sign-Up</h3>
-            <p>A comprehensive volunteer management system for nonprofit organizations to schedule and track events.</p>
-        </div>
-        <div class="feature">
-            <img src="feature3.jpg" alt="Feature 3">
-            <h3>Impact Tracking</h3>
-            <p>Real-time tracking of nonprofit impact with data visualization to show community contributions.</p>
-        </div>
-    </section>
-
-    <!-- About Section -->
+    <!-- About Us Section -->
     <section id="about">
-        <h2>About the Project</h2>
-        <p>This project was inspired by a passion for community service and the desire to create a platform that empowers nonprofits to manage their efforts effectively. As part of the Holberton School Portfolio Project, it showcases various aspects of web development.</p>
+        <h2>About Us</h2>
+        <p>We are a nonprofit organization focused on helping underserved communities through local initiatives, donation drives, and volunteer programs. Our mission is to empower individuals through collective action and community support.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
         <ul>
-            <li><a href="https://www.linkedin.com/in/delisile-twala-535285217">LinkedIn</a></li>
-            <li><a href="Ladydee3">GitHub</a></li>
-            <li><a href="@DelisileTwala">Twitter</a></li>
-            <li><a href="https://github.com/Ladydee3/Landing-page.git">GitHub Repository</a></li>
+            <li>Donation Drives for Essential Needs</li>
+            <li>Volunteer Coordination for Community Events</li>
+            <li>Organizing Local Charity Events</li>
+            <li>Providing Resources for Education and Training</li>
         </ul>
     </section>
 
-    <!-- Optional Video Section -->
-    <section id="video">
-        <h2>Project Overview</h2>
-        <video controls>
-            <source src="your-introduction-video.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you would like to get involved, donate, or collaborate with us, feel free to reach out!</p>
+        <p>Email: <a href="mailto:info@ubuntucommunity.org">info@ubuntucommunity.org</a></p>
     </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ubuntu Community Outreach. All rights reserved.</p>
+        <p>Follow us on <a href="https://facebook.com/ubuntucommunity" target="_blank">Facebook</a> | <a href="https://twitter.com/ubuntucommunity" target="_blank">Twitter</a></p>
+    </footer>
 
 </body>
 </html>
