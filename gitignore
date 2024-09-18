@@ -1,0 +1,12 @@
+# Ignore cache files
+__pycache__/
+*.pyc
+
+# Ignore temp files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Ignore system files
+.DS_Store
